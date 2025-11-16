@@ -2,8 +2,11 @@
 MichaelTaylor-SIEM-Portfolio  
 # Michael Taylor – Cybersecurity Portfolio
 
-👋 Welcome! I’m Michael Taylor, a Security Analyst Intern at Coursera, focused on SIEM workflows, SPL/UDM queries, and Python automation.  
-This portfolio showcases my hands-on labs, certifications, cheat sheets, and diagrams — all designed to demonstrate my skills to employers.
+👋 Welcome! I'm Michael Taylor, a Security Analyst with expertise in SIEM workflows, SPL/UDM queries, Python automation, penetration testing, and defensive security operations.
+
+📄 **[Read my Professional Statement →](PROFESSIONAL_STATEMENT.md)**
+
+This portfolio showcases my hands-on labs, certifications, cheat sheets, projects, and diagrams — all designed to demonstrate my skills to employers.
 
 ---
 
