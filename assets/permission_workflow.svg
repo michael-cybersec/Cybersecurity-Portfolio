@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">Permission Workflow</title>
+  <desc id="desc">A simple flow diagram: Check permissions → Identify issues → Apply fixes → Verify → Document → Close</desc>
+  <defs>
+    <style type="text/css"><![CDATA[
+      .box { fill:#f8fafc; stroke:#334155; stroke-width:1.5px; rx:8px; }
+      .text { font-family: Arial, Helvetica, sans-serif; font-size:14px; fill:#0f172a }
+      .arrow { stroke:#0f172a; stroke-width:1.5px; fill:none; marker-end:url(#arrowhead); }
+    ]]></style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0f172a" />
+    </marker>
+  </defs>
+
+  <!-- Boxes -->
+  <rect class="box" x="30" y="30" width="160" height="50" />
+  <text class="text" x="110" y="60" text-anchor="middle">Check permissions</text>
+
+  <rect class="box" x="230" y="30" width="160" height="50" />
+  <text class="text" x="310" y="60" text-anchor="middle">Identify issues</text>
+
+  <rect class="box" x="430" y="30" width="160" height="50" />
+  <text class="text" x="510" y="60" text-anchor="middle">Apply fixes</text>
+
+  <rect class="box" x="630" y="30" width="160" height="50" />
+  <text class="text" x="710" y="60" text-anchor="middle">Verify</text>
+
+  <rect class="box" x="130" y="140" width="160" height="50" />
+  <text class="text" x="210" y="170" text-anchor="middle">Document</text>
+
+  <rect class="box" x="430" y="140" width="160" height="50" />
+  <text class="text" x="510" y="170" text-anchor="middle">Close incident</text>
+
+  <!-- Arrows -->
+  <path class="arrow" d="M190 55 L230 55" />
+  <path class="arrow" d="M390 55 L430 55" />
+  <path class="arrow" d="M590 55 L630 55" />
+  <path class="arrow" d="M510 80 L210 140" />
+  <path class="arrow" d="M310 165 L430 165" />
+
+  <!-- Small labels -->
+  <text class="text" x="360" y="100" text-anchor="middle" font-size="12">(fixes tested)</text>
+</svg>
